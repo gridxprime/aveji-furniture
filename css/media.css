@@ -1,0 +1,212 @@
+@media (max-width: 1350px) {
+    .main__start h1 {
+        width: 594px;
+        font-size: 52px;
+}
+
+
+
+.main__right img{
+    width: 450px;
+    height: 600px;
+}
+
+.work__right .title {
+    text-align: right;
+    align-self: flex-end;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.projects__all-elements .title{
+    width: 100%;
+}
+
+.order__row-item h2{
+    font-size: 40px;
+}
+
+.work__left h2{
+    font-size: 40px;
+}
+
+.project__item img{
+    width: 400px;
+}
+
+}
+
+
+@media (max-width: 1100px){
+    #main{
+        padding-top: 20vh;
+    }
+
+    .order__row img{
+        width: 350px;
+        height: 356px;
+    }
+
+    .header__burger-btn{
+        display: block;
+    }
+
+    .nav__list{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        color: #fff;
+        align-items: center;
+       
+        padding: 10px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: rgba(58, 58, 58, 0.9);
+        backdrop-filter: blur(5px);
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        font-size: 21px;
+        height: 40vh;
+    }
+
+    .nav__list{
+        left: -20000px;
+    }
+
+}
+
+@media (max-width: 1000px){
+
+    .main__start{
+        
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main__start a{
+        align-self: center;
+        margin-top: 20px;
+        text-decoration: underline 1px solid;
+    }
+    .main__start h1{
+        font-size: 7vw;
+        width: 80%;
+    }
+
+    .main__right img{
+        display: none;
+    }
+
+.main__end{
+    justify-content: center;
+    text-align: center;
+}
+
+.main__left img{
+    margin: 20px 0;
+    align-self: center;
+}
+
+.exp__start{
+    flex-direction: column;
+    align-items: center;
+
+}
+.main__left span{
+    font-size: 18px;
+    width: 90%;
+}
+.exp__right{
+    margin: 5vh 0;
+    width: 80%;
+}
+.underspan__item{
+    text-align: center;
+  
+}
+
+.underspan__item span{
+    width: 100%;
+}
+
+.spans{
+ width: 100%;
+    align-items: center;
+}
+
+.exp__left h2{
+    text-align: center;
+width: 100%;
+font-size: 6vw;
+}
+
+.footer__bottom{
+    text-align: center;
+}
+.work{
+    width: 90vw;
+    flex-direction: column;
+    gap: 30px;
+}
+.work__left{
+    text-align: center;
+}
+.work__item{
+    width: 80%;
+    gap: 20px;
+}
+.work__right{
+    width: 90vw;
+}
+hr{
+    width: 80%;
+}
+.title{
+width: 80%;
+
+}
+
+.work__right .title{
+    text-align: center;
+    font-size: 20px;
+    align-self: center;
+}
+
+.work__item{
+    flex-direction: column;
+}
+
+.order__row img{
+    display: none;
+}
+}
+@media (max-width: 550px){
+    .feed__row-item{
+        width: 90%;
+        padding: 0 10px;
+    }
+    .footer__bottom{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer__top{
+        text-align: center;
+    }
+
+    .project__items{
+        align-items: center;
+    }
+    .project__item img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+
+}
